@@ -1,3 +1,4 @@
+import LandingPage from "./components/LandingPage"
 import { Navbar } from "./components/navbar"
 
 function App() {
@@ -5,8 +6,9 @@ function App() {
 
   return (
     
-    <div className="w-full h-screen bg-[#F1F1F1]">
+    <div className="w-full h-screen ">
    <Navbar/>
+   <LandingPage/>
     </div>
   )
 }
